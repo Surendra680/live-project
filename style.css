@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height:100vh;
+    background-image: url('https://thumbs-prod.si-cdn.com/rtkp3HcECC3xlPiOGvSnR1M5Rag=/fit-in/1600x0/filters:focal(1471x1061:1472x1062)/https://public-media.si-cdn.com/filer/b6/30/b630b48b-7344-4661-9264-186b70531bdc/istock-478831658.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+    
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+
+}
+nav .menu a:first-child{
+    color: rgb(3, 44, 3);
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+
+}
+section h1{
+    margin: 30px 0px 20px 0px;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p {
+    font-size: 25px;
+    
+   word-spacing: 2px;
+   margin-bottom: 25px;
+    text-shadow: 1px 1px 2px black;
+
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+section .btn1{
+     background-color:green;
+     color: white;
+}
+section .btn2{
+    background-color: white;
+    color: green;
+}
